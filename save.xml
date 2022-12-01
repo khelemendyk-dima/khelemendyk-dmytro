@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <book>
+        <ISBN>123454354</ISBN>
+        <name>Приключения</name>
+        <authors>Марк, Иван</authors>
+        <production>Питер</production>
+        <genre>Драма</genre>
+        <date>2002</date>
+    </book>
+    <book>
+        <ISBN>6547658</ISBN>
+        <name>Незнайка</name>
+        <authors>Петр</authors>
+        <production>Харьков</production>
+        <genre>Приключения</genre>
+        <date>1992</date>
+    </book>
+    <book>
+        <ISBN>3456789</ISBN>
+        <name>Быть или не быть</name>
+        <authors>Джек Лондон</authors>
+        <production>Москва</production>
+        <genre>Роман</genre>
+        <date>2010</date>
+    </book>
+</root>
