@@ -1,5 +1,13 @@
 package ua.khpi.oop.khelemendyk09;
 
+/**
+ * Завдання: Створити власний клас-контейнер, що параметризується (Generic Type), на основі зв'язних списків
+ * для реалізації колекції domain-об’єктів лабораторної роботи №7.
+ * Для розроблених класів-контейнерів забезпечити можливість використання їх об'єктів у циклі foreach
+ * в якості джерела даних.
+ *
+ * @author Khelemendyk D.
+ */
 public class Main {
     public static void main(String[] args) {
         LinkedListContainer<Integer> list = new LinkedListContainer<>();
