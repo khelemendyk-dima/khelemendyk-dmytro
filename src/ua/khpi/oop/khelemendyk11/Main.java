@@ -81,7 +81,7 @@ public class Main {
         resultsOfValidation[1] = validateSimpleString(name);
         resultsOfValidation[2] = validateAuthors(authors);
         resultsOfValidation[3] = validateSimpleString(production);
-        resultsOfValidation[4] = validateSimpleString(genre);
+        resultsOfValidation[4] = validateGenre(genre);
         resultsOfValidation[5] = validatePublicationDate(publicationDate);
 
         for (boolean result : resultsOfValidation) {
