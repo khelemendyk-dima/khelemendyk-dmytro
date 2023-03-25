@@ -189,7 +189,7 @@ public class LinkedListContainer<E> implements Iterable<E>, Serializable {
      * @param index index of element in the container
      */
     private void checkPositionIndex(int index) {
-        if (index < 0 && index >= size)
+        if (index < 0 || index > size)
             throw new IndexOutOfBoundsException();
     }
 
