@@ -18,7 +18,7 @@ public final class ValidatorUtil {
     }
 
     /**
-     * Validates book's name production
+     * Validates book's name, production
      * @param string string to validate
      * @return true if string is valid
      */
