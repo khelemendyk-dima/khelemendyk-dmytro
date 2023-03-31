@@ -32,7 +32,7 @@ public class Main {
             try {
                 averageDate.join(timeOut);
             } catch (InterruptedException e) {
-                System.out.println("Oops...Something go wrong...");
+                System.out.println("Oops...Something went wrong...");
             }
 
             averageDate.interrupt();
