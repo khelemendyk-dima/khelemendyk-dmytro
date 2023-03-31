@@ -1,8 +1,5 @@
 package ua.khpi.oop.khelemendyk13;
 
-import ua.khpi.oop.khelemendyk14.Book;
-import ua.khpi.oop.khelemendyk14.LinkedListContainer;
-
 /**
  * AverageDateThread class. Gets average date from all books in the library
  *

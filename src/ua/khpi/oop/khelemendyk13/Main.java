@@ -1,8 +1,5 @@
 package ua.khpi.oop.khelemendyk13;
 
-import ua.khpi.oop.khelemendyk14.Book;
-import ua.khpi.oop.khelemendyk14.LinkedListContainer;
-
 import java.util.Scanner;
 
 import static ua.khpi.oop.khelemendyk13.GeneratorUtil.generateLibrary;
@@ -61,5 +58,54 @@ public class Main {
         }
 
         return timeOut * 1000L;
+    }
+
+    /**
+     * Gets average date from all books in the library
+     * @param library list of books
+     * @return average date
+     */
+    public static int getAverageDate(LinkedListContainer<Book> library) {
+        int sum = 0;
+
+        for (Book book : library) {
+            sum += book.getPublicationDate();
+        }
+
+        return sum / library.size();
+    }
+
+    /**
+     * Counts books that bigger than concrete year
+     * @param library list of books
+     * @param year year after which start to count
+     * @return number of books, date of which start after specified date
+     */
+    public static int countBooksAfterDate(LinkedListContainer<Book> library, int year) {
+        int counter = 0;
+
+        for (Book book : library) {
+            if (book.getPublicationDate() > year)
+                counter++;
+        }
+
+        return counter;
+    }
+
+    /**
+     * Counts books that have concrete number of authors
+     * @param library list of books
+     * @param numberOfAuthors number of authors in the book
+     * @return number of books that have concrete number of authors
+     */
+    public static int countBooksByAuthorCount(LinkedListContainer<Book> library, int numberOfAuthors) {
+        int counter = 0;
+
+        for (Book book : library) {
+            if (book.getAuthors().length == numberOfAuthors)
+                counter++;
+        }
+
+        return counter;
     }
 }

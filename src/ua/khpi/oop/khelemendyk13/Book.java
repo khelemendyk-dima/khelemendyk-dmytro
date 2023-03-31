@@ -1,4 +1,4 @@
-package ua.khpi.oop.khelemendyk12;
+package ua.khpi.oop.khelemendyk13;
 
 import java.util.StringJoiner;
 
@@ -25,11 +25,11 @@ public class Book {
         this.publicationDate = 2020;
     }
 
-    public Book(String ISBN, String name, String[] authors, String edition, String genre, int publicationDate) {
+    public Book(String ISBN, String name, String[] authors, String production, String genre, int publicationDate) {
         this.ISBN = ISBN;
         this.name = name;
         this.authors = authors;
-        this.production = edition;
+        this.production = production;
         this.genre = genre;
         this.publicationDate = publicationDate;
     }

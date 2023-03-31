@@ -1,8 +1,5 @@
 package ua.khpi.oop.khelemendyk13;
 
-import ua.khpi.oop.khelemendyk14.Book;
-import ua.khpi.oop.khelemendyk14.LinkedListContainer;
-
 /**
  * BooksByAuthorCountThread class. Counts books that have concrete number of authors
  *

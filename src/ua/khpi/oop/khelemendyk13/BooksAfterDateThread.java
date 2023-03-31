@@ -1,8 +1,5 @@
 package ua.khpi.oop.khelemendyk13;
 
-import ua.khpi.oop.khelemendyk14.Book;
-import ua.khpi.oop.khelemendyk14.LinkedListContainer;
-
 /**
  * BooksAfterDateThread class. Counts books that bigger than concrete year
  *

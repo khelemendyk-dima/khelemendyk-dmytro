@@ -16,6 +16,18 @@ public class Menu {
     private String authorRegex;
     private String isbnRegex;
 
+    public void setPublicationDateRegex(int publicationDateRegex) {
+        this.publicationDateRegex = publicationDateRegex;
+    }
+
+    public void setAuthorRegex(String authorRegex) {
+        this.authorRegex = "^.*" + authorRegex + ".*$";
+    }
+
+    public void setIsbnRegex(String isbnRegex) {
+        this.isbnRegex = "^.+" + isbnRegex + ".+$";
+    }
+
     /**
      * @param library to initialize library for future work
      */
@@ -178,7 +190,7 @@ public class Menu {
      * Finds books by filter(publication date, isbn and author)
      * @return list of filtered books
      */
-    private LinkedListContainer<Book> findBooksByFilter() {
+    public LinkedListContainer<Book> findBooksByFilter() {
         LinkedListContainer<Book> filteredLibrary = new LinkedListContainer<>();
         for (Book book : library) {
             if (book.getPublicationDate() >= publicationDateRegex
