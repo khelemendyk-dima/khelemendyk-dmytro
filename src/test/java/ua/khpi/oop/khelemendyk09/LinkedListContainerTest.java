@@ -1,7 +1,6 @@
-package ua.khpi.oop.khelemendyk09.test;
+package ua.khpi.oop.khelemendyk09;
 
 import org.junit.jupiter.api.*;
-import ua.khpi.oop.khelemendyk09.LinkedListContainer;
 
 import java.util.*;
 

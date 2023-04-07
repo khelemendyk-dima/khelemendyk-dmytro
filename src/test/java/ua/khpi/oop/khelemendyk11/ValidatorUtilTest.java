@@ -1,4 +1,4 @@
-package ua.khpi.oop.khelemendyk11.test;
+package ua.khpi.oop.khelemendyk11;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;

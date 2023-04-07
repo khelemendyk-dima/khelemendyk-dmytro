@@ -1,7 +1,6 @@
-package ua.khpi.oop.khelemendyk13.test;
+package ua.khpi.oop.khelemendyk13;
 
 import org.junit.jupiter.api.*;
-import ua.khpi.oop.khelemendyk13.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static ua.khpi.oop.khelemendyk13.Main.*;

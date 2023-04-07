@@ -1,8 +1,6 @@
 package ua.khpi.oop.khelemendyk15;
 
-
 import java.util.*;
-
 
 /**
  * Menu class. Used for interacting with user in console

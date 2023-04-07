@@ -1,7 +1,6 @@
-package ua.khpi.oop.khelemendyk12.test;
+package ua.khpi.oop.khelemendyk12;
 
 import org.junit.jupiter.api.*;
-import ua.khpi.oop.khelemendyk12.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
